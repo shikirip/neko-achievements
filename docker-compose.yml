@@ -1,0 +1,19 @@
+name: shikimori
+
+x-env: &env
+  environment:
+    - NEKO_HOST=neko-achievements
+
+services:
+  neko-achievements:
+    image: neko:latest
+    entrypoint: /bin/sh
+#    command: -c "cp -r /app-src/* /app && mix run --no-halt"
+    command: -c "mix run --no-halt"
+    ports:
+      - "0.0.0.0:4000:4000"
+    volumes:
+      # - .:/app-src:ro
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+    restart: always

@@ -1,6 +1,6 @@
 # This file is responsible for configuring your application
 # and its dependencies with the aid of the Mix.Config module.
-use Mix.Config
+import Config
 
 # This configuration is loaded before any dependency and is restricted
 # to this project. If another project depends on this project, this
@@ -48,7 +48,7 @@ config :logger, :console,
 # https://hexdocs.pm/httpoison/HTTPoison.html#request/5
 config :neko, :shikimori,
   client: Neko.Shikimori.HTTPClient,
-  url: "https://shikimori.one/api/",
+  url: "https://shikimori.rip/api/",
   # connect timeout (8_000 by default)
   conn_timeout: 20_000,
   # receive timeout (5_000 by default)

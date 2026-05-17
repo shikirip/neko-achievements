@@ -1,0 +1,23 @@
+[Unit]
+Description=neko-achievements
+After=network.target docker.service
+Requires=docker.service
+
+[Service]
+Type=simple
+WorkingDirectory=/root/shikimori/neko-achievements
+# Run docker compose in the foreground
+ExecStart=/usr/bin/docker compose up
+# Stop containers cleanly on service stop
+ExecStop=/usr/bin/docker compose down
+# Make sure the service restarts if it crashes
+Restart=always
+RestartSec=5
+# Optional: forward logs to journal
+StandardOutput=journal
+StandardError=journal
+# Run as root (or a specific user if preferred)
+User=root
+
+[Install]
+WantedBy=multi-user.target

@@ -65,7 +65,7 @@ defmodule Neko.Mixfile do
       # production and on CircleCI)
       {
         :yamler,
-        github: "morr/yamler",
+        github: "tap349/yamler",
         branch: "mapping_as_map"
       },
       # {:appsignal, "~> 1.0"},

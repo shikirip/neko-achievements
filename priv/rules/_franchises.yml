@@ -5645,6 +5645,7 @@
     franchise: a_mortal_s_journey
     not_anime_ids:
     - 54444
+    - 60820
   threshold: 96.9%
   metadata: &569
     title_ru: Путешествие к бессмертию

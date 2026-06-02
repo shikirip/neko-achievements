@@ -118,6 +118,7 @@
     franchise: demon_slayer
     not_anime_ids:
     - 59192
+    - 61179
     - 62184
   threshold: 96%
   metadata: &12

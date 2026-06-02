@@ -4652,6 +4652,8 @@
   algo: duration
   filters: &462
     franchise: huyao_xiao_hongniang
+    not_anime_ids:
+    - 59291
   threshold: 95%
   metadata: &463
     title_ru: 'Сводники духов: Лисьи свахи'

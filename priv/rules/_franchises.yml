@@ -116,6 +116,9 @@
   algo: duration
   filters: &11
     franchise: demon_slayer
+    not_anime_ids:
+    - 59192
+    - 62184
   threshold: 96%
   metadata: &12
     title_ru: Клинок, рассекающий демонов

@@ -6651,6 +6651,8 @@
   algo: duration
   filters: &674
     franchise: kaleido_star
+    not_anime_ids:
+    - 56815
   threshold: 100%
   metadata: &675
     title_ru: Огни Пёстрой арены

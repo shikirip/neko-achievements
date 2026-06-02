@@ -724,10 +724,12 @@
   filters: &74
     franchise: bleach
     not_anime_ids:
+    - 39476
     - 51060
     - 54171
     - 56442
     - 60048
+    - 60049
     - 60447
   threshold: 95.6%
   metadata: &75

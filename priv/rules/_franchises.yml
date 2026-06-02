@@ -1120,6 +1120,11 @@
   algo: duration
   filters: &115
     franchise: suzumiya_haruhi_no_yuuutsu
+    not_anime_ids:
+    - 62168
+    - 62169
+    - 62174
+    - 62253
   threshold: 92.3%
   metadata: &116
     title_ru: Меланхолия Харухи Судзумии

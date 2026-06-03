@@ -5501,6 +5501,7 @@
     franchise: tsukipro_the_animation
     not_anime_ids:
     - 43288
+    - 51539
   threshold: 94.1%
   metadata: &554
     title_ru: Лунная песнь

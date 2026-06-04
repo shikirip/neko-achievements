@@ -2206,6 +2206,7 @@
     not_anime_ids:
     - 2920
     - 2922
+    - 4298
     - 37703
   threshold: 94%
   metadata: &225

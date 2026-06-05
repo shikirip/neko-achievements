@@ -5674,11 +5674,11 @@
   filters: *566
   threshold: 0.01
   metadata: *567
-- neko_id: a_mortal_s_journey
+- neko_id: fanren_xiu_xian_zhuan
   level: 1
   algo: duration
   filters: &568
-    franchise: a_mortal_s_journey
+    franchise: fanren_xiu_xian_zhuan
     not_anime_ids:
     - 54444
     - 60820
@@ -5688,7 +5688,7 @@
     title_en: Fanren Xiu Xian Chuan
     image: "/assets/achievements/anime/franchise/a_mortal_s_journey.jpg"
     topic_id: 247360
-- neko_id: a_mortal_s_journey
+- neko_id: fanren_xiu_xian_zhuan
   level: 0
   algo: duration
   filters: *568
@@ -5773,11 +5773,11 @@
   filters: *577
   threshold: 0.01
   metadata: *578
-- neko_id: street_fighter_ii
+- neko_id: street_fighter_iv
   level: 1
   algo: duration
   filters: &579
-    franchise: street_fighter_ii
+    franchise: street_fighter_iv
   threshold: 95%
   metadata: &580
     title_ru: Уличный боец
@@ -5787,7 +5787,7 @@
   generator: &581
     not_ignored_ids:
     - 30042
-- neko_id: street_fighter_ii
+- neko_id: street_fighter_iv
   level: 0
   algo: duration
   filters: *579

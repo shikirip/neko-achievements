@@ -6548,6 +6548,8 @@
   filters: &660
     franchise: hello_kitty
     not_anime_ids:
+    - 3202
+    - 9770
     - 11521
     - 18587
     - 22439
@@ -6557,6 +6559,7 @@
     - 32622
     - 33915
     - 53975
+    - 60485
   threshold: 95%
   metadata: &661
     title_ru: Привет, Китти

@@ -5760,9 +5760,14 @@
     franchise: ojamajo_doremi
     not_anime_ids:
     - 12591
+    - 39588
     - 49670
     - 49671
     - 50848
+    - 58535
+    - 62403
+    - 62494
+    - 63755
   threshold: 96.7%
   metadata: &578
     title_ru: Невезучая ведьма Дореми

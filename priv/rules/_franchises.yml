@@ -466,6 +466,9 @@
     title_en: Ansatsu Kyoushitsu
     image: "/assets/achievements/anime/franchise/ansatsu_kyoushitsu.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 62421
 - neko_id: ansatsu_kyoushitsu
   level: 0
   algo: duration

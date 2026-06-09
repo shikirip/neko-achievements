@@ -189,7 +189,7 @@
     - 41590
     - 42776
     - 60012
-  threshold: 94.1%
+  threshold: 94.7%
   metadata: &19
     title_ru: Re:Zero. Жизнь с нуля в альтернативном мире
     title_en: Re:Zero kara Hajimeru Isekai Seikatsu
@@ -214,7 +214,7 @@
     - 57519
     - 61149
     - 61437
-  threshold: 95%
+  threshold: 90%
   metadata: &21
     title_ru: Моя геройская академия
     title_en: Boku no Hero Academia
@@ -321,7 +321,7 @@
     - 43751
     - 47307
     - 63018
-  threshold: 93.4%
+  threshold: 92.4%
   metadata: &32
     title_ru: Евангелион
     title_en: Evangelion
@@ -350,7 +350,7 @@
     - 37264
     - 51168
     - 61345
-  threshold: 85.9%
+  threshold: 94.9%
   metadata: &35
     title_ru: Повелитель
     title_en: Overlord
@@ -460,7 +460,7 @@
   algo: duration
   filters: &45
     franchise: ansatsu_kyoushitsu
-  threshold: 94.1%
+  threshold: 94.4%
   metadata: &46
     title_ru: Класс убийц
     title_en: Ansatsu Kyoushitsu
@@ -480,8 +480,7 @@
     not_anime_ids:
     - 3603
     - 38972
-    - 52593
-  threshold: 95%
+  threshold: 90%
   metadata: &48
     title_ru: Невероятное приключение ДжоДжо
     title_en: JoJo no Kimyou na Bouken
@@ -642,7 +641,7 @@
     - 35111
     - 35321
     - 40372
-  threshold: 94.1%
+  threshold: 95%
   metadata: &66
     title_ru: Волейбол!!
     title_en: Haikyuu!!
@@ -668,7 +667,7 @@
     - 43349
     - 43555
     - 55216
-  threshold: 96.1%
+  threshold: 95%
   metadata: &69
     title_ru: Доктор Стоун
     title_en: Dr. Stone
@@ -982,7 +981,7 @@
     not_anime_ids:
     - 6163
     - 8068
-  threshold: 90%
+  threshold: 91.4%
   metadata: &99
     title_ru: Тёмный дворецкий
     title_en: Kuroshitsuji
@@ -1105,7 +1104,7 @@
     - 35631
     - 50097
     - 60669
-  threshold: 95.7%
+  threshold: 90%
   metadata: &113
     title_ru: Непутёвый ученик в школе магии
     title_en: Mahouka Koukou no Rettousei
@@ -1211,7 +1210,7 @@
     - 62593
     - 62969
     - 63224
-  threshold: 95.9%
+  threshold: 96.2%
   metadata: &118
     title_ru: Ван-Пис
     title_en: One Piece
@@ -1324,7 +1323,7 @@
     franchise: quanzhi_gaoshou
     not_anime_ids:
     - 60513
-  threshold: 97.7%
+  threshold: 100%
   metadata: &132
     title_ru: Аватар короля
     title_en: Quanzhi Gaoshou
@@ -1397,7 +1396,7 @@
     - 49402
     - 54860
     - 55316
-  threshold: 92.6%
+  threshold: 92.5%
   metadata: &139
     title_ru: Призрак в доспехах
     title_en: Ghost in the Shell
@@ -1570,7 +1569,7 @@
   algo: duration
   filters: &157
     franchise: grisaia
-  threshold: 90.9%
+  threshold: 92.5%
   metadata: &158
     title_ru: Плод Грисайи
     title_en: Grisaia no Kajitsu
@@ -1820,7 +1819,7 @@
     franchise: mushishi
     not_anime_ids:
     - 39738
-  threshold: 92.3%
+  threshold: 92.4%
   metadata: &186
     title_ru: Мастер муси
     title_en: Mushishi
@@ -1973,7 +1972,7 @@
     - 10334
     - 37537
     - 56621
-  threshold: 94.4%
+  threshold: 94.8%
   metadata: &203
     title_ru: Бродяга Кэнсин
     title_en: Rurouni Kenshin
@@ -2150,9 +2149,24 @@
     - 42753
     - 52010
     - 52011
+    - 57421
+    - 58708
     - 59190
     - 60062
-  threshold: 95%
+    - 61745
+    - 61802
+    - 61807
+    - 61808
+    - 61809
+    - 62012
+    - 62597
+    - 62598
+    - 62599
+    - 62600
+    - 63002
+    - 63321
+    - 63493
+  threshold: 94.4%
   metadata: &222
     title_ru: Живая любовь!
     title_en: Love Live!
@@ -2316,6 +2330,7 @@
     - 35552
     - 36835
     - 37865
+    - 40143
     - 41612
     - 42135
     - 42136
@@ -2372,7 +2387,7 @@
     - 62920
     - 63090
     - 63199
-  threshold: 95%
+  threshold: 95.9%
   metadata: &235
     title_ru: Покемон
     title_en: Pokemon
@@ -2395,7 +2410,7 @@
     franchise: honzuki_no_gekokujou
     not_anime_ids:
     - 51616
-  threshold: 100%
+  threshold: 98%
   metadata: &238
     title_ru: Власть книжного червя
     title_en: Honzuki no Gekokujou
@@ -2566,7 +2581,7 @@
     - 58856
     - 61230
     - 64019
-  threshold: 93.2%
+  threshold: 95%
   metadata: &257
     title_ru: Звучи, эуфониум!
     title_en: Hibike! Euphonium
@@ -2769,6 +2784,7 @@
     - 6215
     - 7270
     - 7953
+    - 8132
     - 17655
     - 19977
     - 20355
@@ -2816,7 +2832,7 @@
     - 59718
     - 61295
     - 62120
-  threshold: 86.6%
+  threshold: 86.2%
   metadata: &277
     title_ru: Мобильный воин Гандам
     title_en: Mobile Suit Gundam
@@ -2880,7 +2896,7 @@
     - 48617
     - 52282
     - 59832
-  threshold: 94.6%
+  threshold: 94.7%
   metadata: &282
     title_ru: Драконий жемчуг
     title_en: Dragon Ball
@@ -2967,7 +2983,7 @@
     not_anime_ids:
     - 12665
     - 40369
-  threshold: 91.5%
+  threshold: 95%
   metadata: &292
     title_ru: Лилии на ветру
     title_en: Yuru Yuri
@@ -3259,7 +3275,7 @@
     - 55134
     - 57441
     - 62061
-  threshold: 92.9%
+  threshold: 92.8%
   metadata: &322
     title_ru: Детектив Конан
     title_en: Detective Conan
@@ -3528,7 +3544,7 @@
   algo: duration
   filters: &349
     franchise: diamond_no_ace
-  threshold: 98.9%
+  threshold: 97.4%
   metadata: &350
     title_ru: Путь аса
     title_en: Diamond no Ace
@@ -3655,7 +3671,7 @@
     - 38087
     - 51266
     - 59790
-  threshold: 95%
+  threshold: 92.6%
   metadata: &362
     title_ru: Осомацу
     title_en: Osomatsu
@@ -3892,7 +3908,7 @@
   algo: duration
   filters: &388
     franchise: zhen_hun_jie
-  threshold: 98%
+  threshold: 100%
   metadata: &389
     title_ru: Улица демонов
     title_en: Zhen Hun Jie
@@ -3912,7 +3928,7 @@
     not_anime_ids:
     - 34453
     - 55392
-  threshold: 80.1%
+  threshold: 90.5%
   metadata: &391
     title_ru: Девушки-пони
     title_en: Uma Musume
@@ -4060,7 +4076,15 @@
     - 58824
     - 58825
     - 58826
-  threshold: 86.8%
+    - 62833
+    - 62959
+    - 63070
+    - 63319
+    - 63574
+    - 63758
+    - 63961
+    - 64177
+  threshold: 87.1%
   metadata: &404
     title_ru: Идолмастер
     title_en: The iDOLM@STER
@@ -4101,7 +4125,7 @@
     not_anime_ids:
     - 36444
     - 40124
-  threshold: 94.8%
+  threshold: 100%
   metadata: &408
     title_ru: Танец мечей
     title_en: Touken Ranbu
@@ -4222,7 +4246,7 @@
     not_anime_ids:
     - 6032
     - 16415
-  threshold: 98.7%
+  threshold: 95%
   metadata: &422
     title_ru: Акварион
     title_en: Sousei no Aquarion
@@ -4288,7 +4312,7 @@
     - 36913
     - 51123
     - 51156
-  threshold: 90%
+  threshold: 95.9%
   metadata: &428
     title_ru: Инадзума 11
     title_en: Inazuma Eleven
@@ -4348,6 +4372,8 @@
   algo: duration
   filters: &434
     franchise: hokuto_no_ken
+    not_anime_ids:
+    - 2174
   threshold: 90%
   metadata: &435
     title_ru: Кулак Северной звезды
@@ -4415,7 +4441,7 @@
     - 49311
     - 53604
     - 53625
-  threshold: 95%
+  threshold: 90%
   metadata: &442
     title_ru: Космический линкор Ямато
     title_en: Uchuu Senkan Yamato
@@ -4480,7 +4506,13 @@
     - 56889
     - 57754
     - 58428
-  threshold: 85.2%
+    - 61160
+    - 61336
+    - 61574
+    - 62431
+    - 62471
+    - 63176
+  threshold: 95.9%
   metadata: &448
     title_ru: Ура мечте!
     title_en: BanG Dream!
@@ -4542,7 +4574,9 @@
     - 55617
     - 56493
     - 56682
+    - 60479
     - 60831
+    - 62292
   threshold: 98.1%
   metadata: &451
     title_ru: Семёрка идолов
@@ -4863,7 +4897,7 @@
   algo: duration
   filters: &482
     franchise: binan_koukou_chikyuu_boueibu_love
-  threshold: 91.9%
+  threshold: 100%
   metadata: &483
     title_ru: Красавцы из клуба защитников Земли
     title_en: Binan Koukou Chikyuu Boueibu
@@ -4993,7 +5027,7 @@
     - 53265
     - 54282
     - 61286
-  threshold: 93.6%
+  threshold: 93.9%
   metadata: &498
     title_ru: Приключения Дигимонов
     title_en: Digimon Adventure
@@ -5074,7 +5108,9 @@
   algo: duration
   filters: &506
     franchise: city_hunter
-  threshold: 90.8%
+    not_anime_ids:
+    - 63246
+  threshold: 90%
   metadata: &507
     title_ru: Городской охотник
     title_en: City Hunter
@@ -5101,6 +5137,8 @@
     - 10370
     - 13231
     - 21479
+    - 61882
+    - 61883
   threshold: 80%
   metadata: &510
     title_ru: Бейблэйд
@@ -5124,7 +5162,7 @@
     - 30103
     - 33669
     - 37051
-  threshold: 91.8%
+  threshold: 92%
   metadata: &512
     title_ru: Хорошенькое лекарство
     title_en: Futari wa Precure
@@ -5362,7 +5400,7 @@
     not_anime_ids:
     - 28723
     - 59308
-  threshold: 95.9%
+  threshold: 95.3%
   metadata: &536
     title_ru: Айкацу!
     title_en: Aikatsu!
@@ -5529,7 +5567,7 @@
     not_anime_ids:
     - 43288
     - 51539
-  threshold: 94.1%
+  threshold: 100%
   metadata: &554
     title_ru: Лунная песнь
     title_en: Tsukiuta
@@ -5571,7 +5609,7 @@
     - 58331
     - 58345
     - 58346
-  threshold: 95.7%
+  threshold: 95.6%
   metadata: &557
     title_ru: Щелкунчик Китаро
     title_en: Gegege no Kitarou
@@ -5643,7 +5681,7 @@
     - 38647
     - 38648
     - 40543
-  threshold: 88.2%
+  threshold: 90.3%
   metadata: &564
     title_ru: При Пара
     title_en: PriPara
@@ -5664,7 +5702,7 @@
   algo: duration
   filters: &566
     franchise: ze_tian_ji
-  threshold: 100%
+  threshold: 98%
   metadata: &567
     title_ru: Путь выбора
     title_en: Ze Tian Ji
@@ -5684,7 +5722,7 @@
     not_anime_ids:
     - 54444
     - 60820
-  threshold: 96.9%
+  threshold: 95.2%
   metadata: &569
     title_ru: Путешествие к бессмертию
     title_en: Fanren Xiu Xian Chuan
@@ -5768,7 +5806,7 @@
     - 62403
     - 62494
     - 63755
-  threshold: 96.7%
+  threshold: 91.1%
   metadata: &578
     title_ru: Невезучая ведьма Дореми
     title_en: Ojamajo Doremi
@@ -5826,7 +5864,7 @@
     not_anime_ids:
     - 4190
     - 30145
-  threshold: 95%
+  threshold: 94.5%
   metadata: &585
     title_ru: В далёкие времена
     title_en: Harukanaru Toki no Naka de
@@ -5985,7 +6023,7 @@
   algo: duration
   filters: &602
     franchise: space_cobra
-  threshold: 98.2%
+  threshold: 100%
   metadata: &603
     title_ru: Космические приключения Кобры
     title_en: Cobra
@@ -6010,7 +6048,7 @@
     - 39102
     - 39162
     - 59807
-  threshold: 99.3%
+  threshold: 90%
   metadata: &605
     title_ru: Трансформеры
     title_en: Transformers
@@ -6284,7 +6322,7 @@
   algo: duration
   filters: &633
     franchise: jigoku_sensei_nube
-  threshold: 100%
+  threshold: 95%
   metadata: &634
     title_ru: Адский учитель Нубэ
     title_en: Jigoku Sensei Nube
@@ -6671,7 +6709,7 @@
   algo: duration
   filters: &672
     franchise: soul_land
-  threshold: 93.3%
+  threshold: 93.5%
   metadata: &673
     title_ru: Боевой континент
     title_en: Douluo Dalu
@@ -6711,7 +6749,7 @@
   algo: duration
   filters: &677
     franchise: swallowed_star
-  threshold: 97.1%
+  threshold: 96.1%
   metadata: &678
     title_ru: Пожиратель звёзд
     title_en: Tunshi Xingkong

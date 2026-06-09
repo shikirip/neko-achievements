@@ -6727,3 +6727,20 @@
   filters: *677
   threshold: 0.01
   metadata: *678
+- neko_id: yuru_camp
+  level: 1
+  algo: duration
+  filters: &679
+    franchise: yuru_camp
+  threshold: 100%
+  metadata: &680
+    title_ru: Лагерь на свежем воздухе
+    title_en: Yuru Camp
+    image: https://shikimori.rip/shiki_images/2635614.jpg
+    topic_id: 247360
+- neko_id: yuru_camp
+  level: 0
+  algo: duration
+  filters: *679
+  threshold: 0.01
+  metadata: *680

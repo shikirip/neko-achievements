@@ -4809,6 +4809,9 @@
     title_en: Kidou Keisatsu Patlabor
     image: "/assets/achievements/anime/franchise/mobile_police_patlabor.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 59889
 - neko_id: mobile_police_patlabor
   level: 0
   algo: duration

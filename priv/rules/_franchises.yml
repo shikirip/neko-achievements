@@ -116,6 +116,10 @@
   algo: duration
   filters: &11
     franchise: demon_slayer
+    not_anime_ids:
+    - 59192
+    - 61179
+    - 62184
   threshold: 96%
   metadata: &12
     title_ru: Клинок, рассекающий демонов
@@ -208,6 +212,8 @@
     - 43683
     - 54624
     - 57519
+    - 61149
+    - 61437
   threshold: 95%
   metadata: &21
     title_ru: Моя геройская академия
@@ -314,6 +320,7 @@
     - 43745
     - 43751
     - 47307
+    - 63018
   threshold: 93.4%
   metadata: &32
     title_ru: Евангелион
@@ -342,6 +349,7 @@
     - 36683
     - 37264
     - 51168
+    - 61345
   threshold: 85.9%
   metadata: &35
     title_ru: Повелитель
@@ -458,6 +466,9 @@
     title_en: Ansatsu Kyoushitsu
     image: "/assets/achievements/anime/franchise/ansatsu_kyoushitsu.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 62421
 - neko_id: ansatsu_kyoushitsu
   level: 0
   algo: duration
@@ -721,10 +732,12 @@
   filters: &74
     franchise: bleach
     not_anime_ids:
+    - 39476
     - 51060
     - 54171
     - 56442
     - 60048
+    - 60049
     - 60447
   threshold: 95.6%
   metadata: &75
@@ -867,8 +880,8 @@
     - 40761
     - 40982
     - 49633
+    - 51410
     - 58972
-    - 59465
     - 60660
   threshold: 90%
   metadata: &87
@@ -1117,6 +1130,11 @@
   algo: duration
   filters: &115
     franchise: suzumiya_haruhi_no_yuuutsu
+    not_anime_ids:
+    - 62168
+    - 62169
+    - 62174
+    - 62253
   threshold: 92.3%
   metadata: &116
     title_ru: Меланхолия Харухи Судзумии
@@ -1189,6 +1207,13 @@
     - 59832
     - 59908
     - 59959
+    - 61393
+    - 61674
+    - 61892
+    - 62394
+    - 62593
+    - 62969
+    - 63224
   threshold: 95.9%
   metadata: &118
     title_ru: Ван-Пис
@@ -2173,6 +2198,7 @@
     - 55748
     - 60159
     - 60160
+    - 61806
 - neko_id: love_live
   level: 0
   algo: duration
@@ -2188,6 +2214,7 @@
     not_anime_ids:
     - 2920
     - 2922
+    - 4298
     - 37703
   threshold: 94%
   metadata: &225
@@ -2335,7 +2362,19 @@
     - 59372
     - 59615
     - 59656
+    - 60321
+    - 60605
     - 60674
+    - 61027
+    - 61423
+    - 62141
+    - 62150
+    - 62388
+    - 62417
+    - 62885
+    - 62920
+    - 63090
+    - 63199
   threshold: 95%
   metadata: &235
     title_ru: Покемон
@@ -2528,6 +2567,8 @@
     - 35082
     - 37577
     - 58856
+    - 61230
+    - 64019
   threshold: 93.2%
   metadata: &257
     title_ru: Звучи, эуфониум!
@@ -2619,6 +2660,8 @@
     - 31676
     - 32735
     - 38937
+    - 59687
+    - 63404
   threshold: 95%
   metadata: &267
     title_ru: Персона
@@ -2774,6 +2817,8 @@
     - 55404
     - 59572
     - 59718
+    - 61295
+    - 62120
   threshold: 86.6%
   metadata: &277
     title_ru: Мобильный воин Гандам
@@ -3216,6 +3261,8 @@
     - 53976
     - 55134
     - 57441
+    - 62061
+    - 64359
   threshold: 92.9%
   metadata: &322
     title_ru: Детектив Конан
@@ -3354,6 +3401,8 @@
     - 56972
     - 57602
     - 59712
+    - 63413
+    - 63999
   threshold: 90%
   metadata: &335
     title_ru: Галактический экспресс 999
@@ -4497,6 +4546,7 @@
     - 55617
     - 56493
     - 56682
+    - 60831
   threshold: 98.1%
   metadata: &451
     title_ru: Семёрка идолов
@@ -4637,6 +4687,8 @@
   algo: duration
   filters: &462
     franchise: huyao_xiao_hongniang
+    not_anime_ids:
+    - 59291
   threshold: 95%
   metadata: &463
     title_ru: 'Сводники духов: Лисьи свахи'
@@ -4757,6 +4809,8 @@
     - 56119
     - 57835
     - 57846
+    - 63327
+    - 63336
   threshold: 80%
   metadata: &477
     title_ru: Карточные бои Авангарда
@@ -4942,6 +4996,7 @@
     - 51780
     - 53265
     - 54282
+    - 61286
   threshold: 93.6%
   metadata: &498
     title_ru: Приключения Дигимонов
@@ -5477,6 +5532,7 @@
     franchise: tsukipro_the_animation
     not_anime_ids:
     - 43288
+    - 51539
   threshold: 94.1%
   metadata: &554
     title_ru: Лунная песнь
@@ -5514,6 +5570,7 @@
     - 39414
     - 53968
     - 55041
+    - 56382
     - 57107
     - 58331
     - 58345
@@ -5623,20 +5680,21 @@
   filters: *566
   threshold: 0.01
   metadata: *567
-- neko_id: a_mortal_s_journey
+- neko_id: fanren_xiu_xian_zhuan
   level: 1
   algo: duration
   filters: &568
-    franchise: a_mortal_s_journey
+    franchise: fanren_xiu_xian_zhuan
     not_anime_ids:
     - 54444
+    - 60820
   threshold: 96.9%
   metadata: &569
     title_ru: Путешествие к бессмертию
     title_en: Fanren Xiu Xian Chuan
     image: "/assets/achievements/anime/franchise/a_mortal_s_journey.jpg"
     topic_id: 247360
-- neko_id: a_mortal_s_journey
+- neko_id: fanren_xiu_xian_zhuan
   level: 0
   algo: duration
   filters: *568
@@ -5706,9 +5764,14 @@
     franchise: ojamajo_doremi
     not_anime_ids:
     - 12591
+    - 39588
     - 49670
     - 49671
     - 50848
+    - 58535
+    - 62403
+    - 62494
+    - 63755
   threshold: 96.7%
   metadata: &578
     title_ru: Невезучая ведьма Дореми
@@ -5721,11 +5784,11 @@
   filters: *577
   threshold: 0.01
   metadata: *578
-- neko_id: street_fighter_ii
+- neko_id: street_fighter_iv
   level: 1
   algo: duration
   filters: &579
-    franchise: street_fighter_ii
+    franchise: street_fighter_iv
   threshold: 95%
   metadata: &580
     title_ru: Уличный боец
@@ -5735,7 +5798,7 @@
   generator: &581
     not_ignored_ids:
     - 30042
-- neko_id: street_fighter_ii
+- neko_id: street_fighter_iv
   level: 0
   algo: duration
   filters: *579
@@ -5947,8 +6010,6 @@
     - 6511
     - 6800
     - 7862
-    - 28401
-    - 30851
     - 39101
     - 39102
     - 39162
@@ -6480,7 +6541,6 @@
     - 37098
     - 40439
     - 44140
-    - 58376
   threshold: 80%
   metadata: &659
     title_ru: Медведи-соседи
@@ -6499,6 +6559,8 @@
   filters: &660
     franchise: hello_kitty
     not_anime_ids:
+    - 3202
+    - 9770
     - 11521
     - 18587
     - 22439
@@ -6508,6 +6570,7 @@
     - 32622
     - 33915
     - 53975
+    - 60485
   threshold: 95%
   metadata: &661
     title_ru: Привет, Китти
@@ -6629,6 +6692,8 @@
   algo: duration
   filters: &674
     franchise: kaleido_star
+    not_anime_ids:
+    - 56815
   threshold: 100%
   metadata: &675
     title_ru: Огни Пёстрой арены
@@ -6662,3 +6727,20 @@
   filters: *677
   threshold: 0.01
   metadata: *678
+- neko_id: yuru_camp
+  level: 1
+  algo: duration
+  filters: &679
+    franchise: yuru_camp
+  threshold: 100%
+  metadata: &680
+    title_ru: Лагерь на свежем воздухе
+    title_en: Yuru Camp
+    image: https://shikimori.rip/shiki_images/2635614.jpg
+    topic_id: 247360
+- neko_id: yuru_camp
+  level: 0
+  algo: duration
+  filters: *679
+  threshold: 0.01
+  metadata: *680

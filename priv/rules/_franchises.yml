@@ -6781,4 +6781,64 @@
   algo: duration
   filters: *680
   threshold: 0.01
-  metadata: *681
+  metadata: *681 
+- neko_id: trigun
+  level: 1
+  algo: duration
+  filters:
+    franchise: trigun
+  threshold: 100%
+  metadata: 
+    title_ru: Триган
+    title_en: Trigun
+    image: "https://shikimori.rip/shiki_images/2201561.jpg"
+    topic_id: 247360
+- neko_id: trigun
+  level: 0
+  algo: duration
+  filters: 
+  threshold: 0.01
+  metadata:
+- neko_id: spy_x_family
+  level: 1
+  algo: duration
+  filters:
+    franchise: spy_x_family
+    not_anime_ids:
+    - 53270
+    - 56973
+    - 57435
+    - 57980
+    - 58159
+  threshold: 100%
+  metadata: 
+    title_ru: Семья шпиона
+    title_en: Spy x Family
+    image: "https://shikimori.rip/shiki_images/2615379.jpg"
+    topic_id: 247360
+- neko_id: spy_x_family
+  level: 0
+  algo: duration
+  filters: 
+  threshold: 0.01
+  metadata:
+- neko_id: beastars
+  level: 1
+  algo: duration
+  filters:
+    franchise: beastars
+    not_anime_ids:
+    - 47351
+    - 48554
+  threshold: 100%
+  metadata: 
+    title_ru: Выдающиеся звери
+    title_en: Beastars
+    image: "https://shikimori.rip/shiki_images/2890142.jpg"
+    topic_id: 247360
+- neko_id: beastars
+  level: 0
+  algo: duration
+  filters: 
+  threshold: 0.01
+  metadata:

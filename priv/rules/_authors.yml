@@ -2361,3 +2361,41 @@
   filters: *130
   metadata: *131
   generator: *132
+- neko_id: naoko_yamada
+  level: 1
+  algo: count
+  threshold: 29%
+  filters: &133
+    anime_ids:
+    - 5680
+    - 6862
+    - 7791
+    - 9617
+    - 9734
+    - 16417
+    - 17879
+    - 21647
+    - 27989
+    - 28851
+    - 31988
+    - 35677
+    - 49738
+    - 52085
+    - 53585
+    - 53747
+    - 60865
+    - 62296
+  metadata: &134
+    title_ru: Наоко Ямада
+    title_en: Naoko Yamada
+    image: "https://shikimori.rip/shiki_images/2621464.jpg"
+    topic_id: 276032
+  generator: &135
+    person_id: 7498
+- neko_id: naoko_yamada
+  level: 0
+  algo: count
+  threshold: 0.01
+  filters: *133
+  metadata: *134
+  generator: *135

@@ -5972,6 +5972,9 @@
     title_en: Soukou Kihei Votoms
     image: "/assets/achievements/anime/franchise/votoms_finder.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+      - 63323
 - neko_id: votoms_finder
   level: 0
   algo: duration

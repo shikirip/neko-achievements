@@ -3612,6 +3612,7 @@
     franchise: sonic
     not_anime_ids:
     - 10263
+    - 59008
   threshold: 100%
   metadata: &358
     title_ru: Соник

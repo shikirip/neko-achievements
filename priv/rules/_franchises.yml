@@ -2551,7 +2551,7 @@
   filters: &254
     franchise: uta_no_prince_sama
     not_anime_ids:
-    - 39644
+    - 57622
   threshold: 95%
   metadata: &255
     title_ru: Поющий принц
@@ -2566,6 +2566,7 @@
     not_ignored_ids:
     - 36684
     - 36685
+    - 39644
 - neko_id: uta_no_prince_sama
   level: 0
   algo: duration

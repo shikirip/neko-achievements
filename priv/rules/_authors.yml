@@ -2392,3 +2392,188 @@
     topic_id: 276032
   generator: 
     person_id: 7498
+- neko_id: takeshi_koike
+  level: 1
+  algo: count
+  threshold: 33%
+  filters: 
+    anime_ids:
+    - 1303
+    - 6675
+    - 11483
+    - 23293
+    - 27939
+    - 34021
+    - 39487
+    - 61616
+    - 60408
+  metadata:
+    title_ru: Такэси Коикэ
+    title_en: Takeshi Koike
+    image: "https://shikimori.rip/uploads/useruploads/1376315/9e544c0c014326f975ca54a3ab1b8034.jpg"
+    topic_id: 276032
+  generator: 
+    person_id: 10231
+- neko_id: yasuomi_umetsu
+  level: 1
+  algo: count
+  threshold: 29%
+  filters: 
+    anime_ids:
+    - 221
+    - 222
+    - 320
+    - 1598
+    - 2182
+    - 2592
+    - 3154
+    - 3323
+    - 3398
+    - 3461
+    - 3512
+    - 19367
+    - 20053
+    - 59848
+  metadata:
+    title_ru: Ясуоми Умэцу
+    title_en: Yasuomi Umetsu
+    image: "https://shikimori.rip/uploads/useruploads/1376315/f42748ac76d7c86398474dc8e124ae5a.jpg"
+    topic_id: 276032
+  generator: 
+    person_id: 6583
+- neko_id: tatsuya_ishihara
+  level: 1
+  algo: count
+  threshold: 33%
+  filters: 
+    anime_ids:
+    - 101
+    - 656
+    - 849
+    - 1530
+    - 2167
+    - 4181
+    - 4382
+    - 7311
+    - 8857
+    - 10165
+    - 13441
+    - 14741
+    - 15687
+    - 15879
+    - 16934
+    - 17791
+    - 18671
+    - 21797
+    - 27601
+    - 27989
+    - 31442
+    - 31665
+    - 31988
+    - 35608
+    - 35678
+    - 39247
+    - 39894
+    - 49395
+    - 49893
+    - 51995
+    - 59897
+  metadata:
+    title_ru: Тацуя Исихара
+    title_en: Tatsuya Ishihara
+    image: "https://shikimori.rip/uploads/useruploads/1376315/8a8abdf24529e5c7e68ea9dabbf530ba.jpg"
+    topic_id: 276032
+  generator: 
+    person_id: 5055
+- neko_id: sangho_yeon
+  level: 1
+  algo: count
+  threshold: 43%
+  filters: 
+    anime_ids:
+    - 12035
+    - 21025
+    - 21027
+    - 28235
+    - 33144
+    - 34048
+    - 36021
+  metadata:
+    title_ru: Санхо Ён
+    title_en: Sang-ho Yeon
+    image: "https://shikimori.rip/uploads/useruploads/1376315/b2710cf01c6a1b6460840c0aa880a2f0.jpg"
+    topic_id: 276032
+  generator: 
+    person_id: 26817
+- neko_id: hiroyuki_seshita
+  level: 1
+  algo: count
+  threshold: 36%
+  filters: 
+    anime_ids:
+    - 24893
+    - 31580
+    - 32015
+    - 32086
+    - 33253
+    - 33783
+    - 35759
+    - 36816
+    - 37897
+    - 39574
+    - 53109
+    - 53627
+    - 54798
+    - 56967
+  metadata:
+    title_ru: Хироюки Сэсита
+    title_en: Hiroyuki Seshita
+    image: "https://shikimori.rip/uploads/useruploads/1376315/ae83d8008c03196a7a67b084f6f8fd10.jpg"
+    topic_id: 276032
+  generator: 
+    person_id: 35471
+- neko_id: yasuhiro_yoshiura
+  level: 1
+  algo: count
+  threshold: 37%
+  filters: 
+    anime_ids:
+    - 770
+    - 2235
+    - 3167
+    - 4460
+    - 5158
+    - 12477
+    - 13429
+    - 20903
+    - 28149
+    - 33741
+    - 42847
+  metadata:
+    title_ru: Ясухиро Ёсиура
+    title_en: Yasuhiro Yoshiura
+    image: "https://shikimori.rip/uploads/useruploads/1376315/af8a62f0c022243f8108bbd367b78cbd.jpg"
+    topic_id: 276032
+  generator: 
+    person_id: 6072
+- neko_id: hiroyasu_ishida
+  level: 1
+  algo: count
+  threshold: 38%
+  filters: 
+    anime_ids:
+    - 8187
+    - 10448
+    - 20673
+    - 23285
+    - 28205
+    - 37407
+    - 48604
+    - 49938
+  metadata:
+    title_ru: Хироясу Исида
+    title_en: Hiroyasu Ishida
+    image: "https://shikimori.rip/uploads/useruploads/1376315/bb5a3d3809f6c9925eaec43dc4c0069e.jpg"
+    topic_id: 276032
+  generator: 
+    person_id: 9852

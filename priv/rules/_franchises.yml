@@ -2110,6 +2110,7 @@
   generator: &219
     ignore_latest_ids:
     - 37755
+    - 62067
 - neko_id: golden_kamuy
   level: 0
   algo: duration
@@ -2551,7 +2552,7 @@
   filters: &254
     franchise: uta_no_prince_sama
     not_anime_ids:
-    - 39644
+    - 57622
   threshold: 95%
   metadata: &255
     title_ru: Поющий принц
@@ -2566,6 +2567,7 @@
     not_ignored_ids:
     - 36684
     - 36685
+    - 39644
 - neko_id: uta_no_prince_sama
   level: 0
   algo: duration
@@ -2899,6 +2901,7 @@
     - 38653
     - 48617
     - 52282
+    - 56141
     - 59832
   threshold: 94.7%
   metadata: &283
@@ -3612,6 +3615,7 @@
     franchise: sonic
     not_anime_ids:
     - 10263
+    - 59008
   threshold: 100%
   metadata: &358
     title_ru: Соник
@@ -3934,6 +3938,7 @@
     not_anime_ids:
     - 34453
     - 55392
+    - 58517
   threshold: 90.5%
   metadata: &392
     title_ru: Девушки-пони
@@ -4489,33 +4494,9 @@
     franchise: bang_dream
     not_anime_ids:
     - 40838
-    - 41377
-    - 45108
-    - 45109
     - 45731
-    - 48772
-    - 48773
     - 49471
-    - 49669
-    - 50563
-    - 50735
-    - 51087
-    - 51478
-    - 53330
-    - 54262
-    - 54274
-    - 55297
-    - 55378
-    - 55883
-    - 56889
     - 57754
-    - 58428
-    - 61160
-    - 61336
-    - 61574
-    - 62431
-    - 62471
-    - 63176
   threshold: 95.9%
   metadata: &449
     title_ru: Ура мечте!
@@ -4524,30 +4505,50 @@
     topic_id: 247360
   generator: &450
     not_ignored_ids:
-    - 38986
-    - 38392
-    - 37955
-    - 40294
-    - 40293
-    - 40292
-    - 40291
-    - 37954
-    - 36919
+    - 32338
+    - 34252
+    - 34412
     - 36918
+    - 36919
+    - 36920
     - 36921
     - 36922
-    - 36920
-    - 34412
-    - 34252
-    - 32338
+    - 37954
+    - 37955
+    - 38392
+    - 38986
     - 40352
     - 41069
     - 41070
     - 41072
     - 41316
+    - 41377
+    - 45108
+    - 45109
+    - 48772
+    - 48773
+    - 49669
     - 50169
+    - 50563
+    - 50735
+    - 51087
     - 51378
+    - 51478
     - 51407
+    - 53330
+    - 54262
+    - 54274
+    - 55297
+    - 55378
+    - 55883
+    - 56889
+    - 58428
+    - 61160
+    - 61336
+    - 61574
+    - 62431
+    - 62471
+    - 63176
     ignore_latest_ids:
     - 41462
     - 41781
@@ -4569,16 +4570,6 @@
     not_anime_ids:
     - 37710
     - 49442
-    - 53396
-    - 54044
-    - 54045
-    - 54046
-    - 54047
-    - 55006
-    - 55617
-    - 56493
-    - 56682
-    - 60479
     - 60831
     - 62292
   threshold: 98.1%
@@ -4589,9 +4580,9 @@
     topic_id: 247360
   generator: &453
     not_ignored_ids:
-    - 32446
     - 32030
     - 32031
+    - 32446
     - 33420
     - 35654
     - 36289
@@ -4602,17 +4593,22 @@
     - 40967
     - 41099
     - 41167
+    - 43601
     - 51741
     - 52042
-    - 43601
-    - 43601
-    - 53071
-    - 52948
-    - 52042
-    - 51741
     - 52948
     - 53071
     - 53242
+    - 53396
+    - 54044
+    - 54045
+    - 54046
+    - 54047
+    - 55006
+    - 55617
+    - 56493
+    - 56682
+    - 60479
     ignore_latest_ids:
     - 54118
 - neko_id: idolish7
@@ -4809,6 +4805,9 @@
     title_en: Kidou Keisatsu Patlabor
     image: "/assets/achievements/anime/franchise/mobile_police_patlabor.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+    - 59889
 - neko_id: mobile_police_patlabor
   level: 0
   algo: duration
@@ -5404,6 +5403,7 @@
     not_anime_ids:
     - 28723
     - 59308
+    - 61558
   threshold: 95.3%
   metadata: &537
     title_ru: Айкацу!
@@ -5974,6 +5974,9 @@
     title_en: Soukou Kihei Votoms
     image: "/assets/achievements/anime/franchise/votoms_finder.jpg"
     topic_id: 247360
+  generator:
+    ignore_latest_ids:
+      - 63323
 - neko_id: votoms_finder
   level: 0
   algo: duration
@@ -6794,6 +6797,25 @@
     image: "https://shikimori.rip/shiki_images/2201561.jpg"
     topic_id: 247360
 - neko_id: trigun
+  metadata: *681
+- neko_id: jujutsu_kaisen
+  level: 1
+  algo: duration
+  filters: 
+    franchise: jujutsu_kaisen
+    not_anime_ids:
+    - 38777
+    - 52558
+    - 56243
+    - 59654
+    - 62392
+  threshold: 100%
+  metadata: 
+    title_ru: Магическая битва
+    title_en: Jujutsu Kaisen
+    image: "https://shikimori.rip/uploads/useruploads/1376315/0ee587a224bb1c97e9dbbe543f7c20c7.jpg"
+    topic_id: 247360
+- neko_id: jujutsu_kaisen
   level: 0
   algo: duration
   filters: 
@@ -6817,6 +6839,21 @@
     image: "https://shikimori.rip/shiki_images/2615379.jpg"
     topic_id: 247360
 - neko_id: spy_x_family
+- neko_id: fire_force
+  level: 1
+  algo: duration
+  filters: 
+    franchise: fire_force
+    not_anime_ids:
+    - 45999
+    - 56949
+  threshold: 100%
+  metadata: 
+    title_ru: Пламенная бригада пожарных
+    title_en: Fire Force
+    image: "https://shikimori.rip/uploads/useruploads/1376315/dd6cf15be3f0eab02c092dc6efc30634.png"
+    topic_id: 247360
+- neko_id: fire_force
   level: 0
   algo: duration
   filters: 
@@ -6837,6 +6874,38 @@
     image: "https://shikimori.rip/shiki_images/2890142.jpg"
     topic_id: 247360
 - neko_id: beastars
+- neko_id: tate_no_yuusha_no_nariagari
+  level: 1
+  algo: duration
+  filters: 
+    franchise: tate_no_yuusha_no_nariagari
+  threshold: 100%
+  metadata: 
+    title_ru: Восхождение героя щита
+    title_en: Tate no Yuusha no Nariagari
+    image: "https://shikimori.rip/uploads/useruploads/1376315/1a6e0cd8384ee79bc78559987c8ac248.png"
+    topic_id: 247360
+- neko_id: tate_no_yuusha_no_nariagari
+  level: 0
+  algo: duration
+  filters: 
+  threshold: 0.01
+  metadata:
+- neko_id: shaman_king
+  level: 1
+  algo: duration
+  filters: 
+    franchise: shaman_king
+    not_anime_ids:
+    - 3861
+    - 49708
+  threshold: 100%
+  metadata: 
+    title_ru: Шаман Кинг
+    title_en: Shaman King
+    image: "https://shikimori.rip/uploads/useruploads/1376315/670a2bf29949aa8e65bd6d740ccbec60.png"
+    topic_id: 247360
+- neko_id: shaman_king
   level: 0
   algo: duration
   filters: 

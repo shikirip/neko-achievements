@@ -5403,6 +5403,7 @@
     not_anime_ids:
     - 28723
     - 59308
+    - 61558
   threshold: 95.3%
   metadata: &537
     title_ru: Айкацу!

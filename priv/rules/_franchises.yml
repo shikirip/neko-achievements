@@ -6785,3 +6785,83 @@
   filters: *680
   threshold: 0.01
   metadata: *681
+- neko_id: jujutsu_kaisen
+  level: 1
+  algo: duration
+  filters: 
+    franchise: jujutsu_kaisen
+    not_anime_ids:
+    - 38777
+    - 52558
+    - 56243
+    - 59654
+    - 62392
+  threshold: 100%
+  metadata: 
+    title_ru: Магическая битва
+    title_en: Jujutsu Kaisen
+    image: "https://shikimori.rip/uploads/useruploads/1376315/0ee587a224bb1c97e9dbbe543f7c20c7.jpg"
+    topic_id: 247360
+- neko_id: jujutsu_kaisen
+  level: 0
+  algo: duration
+  filters: 
+  threshold: 0.01
+  metadata:
+- neko_id: fire_force
+  level: 1
+  algo: duration
+  filters: 
+    franchise: fire_force
+    not_anime_ids:
+    - 45999
+    - 56949
+  threshold: 100%
+  metadata: 
+    title_ru: Пламенная бригада пожарных
+    title_en: Fire Force
+    image: "https://shikimori.rip/uploads/useruploads/1376315/dd6cf15be3f0eab02c092dc6efc30634.png"
+    topic_id: 247360
+- neko_id: fire_force
+  level: 0
+  algo: duration
+  filters: 
+  threshold: 0.01
+  metadata:
+- neko_id: tate_no_yuusha_no_nariagari
+  level: 1
+  algo: duration
+  filters: 
+    franchise: tate_no_yuusha_no_nariagari
+  threshold: 100%
+  metadata: 
+    title_ru: Восхождение героя щита
+    title_en: Tate no Yuusha no Nariagari
+    image: "https://shikimori.rip/uploads/useruploads/1376315/1a6e0cd8384ee79bc78559987c8ac248.png"
+    topic_id: 247360
+- neko_id: tate_no_yuusha_no_nariagari
+  level: 0
+  algo: duration
+  filters: 
+  threshold: 0.01
+  metadata:
+- neko_id: shaman_king
+  level: 1
+  algo: duration
+  filters: 
+    franchise: shaman_king
+    not_anime_ids:
+    - 3861
+    - 49708
+  threshold: 100%
+  metadata: 
+    title_ru: Шаман Кинг
+    title_en: Shaman King
+    image: "https://shikimori.rip/uploads/useruploads/1376315/670a2bf29949aa8e65bd6d740ccbec60.png"
+    topic_id: 247360
+- neko_id: shaman_king
+  level: 0
+  algo: duration
+  filters: 
+  threshold: 0.01
+  metadata:

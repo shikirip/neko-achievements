@@ -5688,6 +5688,7 @@
     - 38647
     - 38648
     - 40543
+    - 63877
   threshold: 90.3%
   metadata: &566
     title_ru: При Пара
@@ -5697,6 +5698,7 @@
   generator: &567
     ignore_latest_ids:
     - 59275
+    - 63033
 - neko_id: pripara
   level: 0
   algo: duration

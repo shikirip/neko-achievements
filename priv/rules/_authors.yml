@@ -309,6 +309,7 @@
     title_ru: Наоко Ямада
     title_en: Naoko Yamada
     image: "/assets/achievements/anime/author/naoko_yamada.jpg"
+    border_color: "#E5EBE3"
     topic_id: 276032
   generator: &21
     person_id: 7498
@@ -643,6 +644,7 @@
     title_ru: Тацуя Исихара
     title_en: Tatsuya Ishihara
     image: "/assets/achievements/anime/author/tatsuya_ishihara.jpg"
+    border-color: "#E9B8D9"
     topic_id: 276032
   generator: &39
     person_id: 5055
@@ -1525,6 +1527,7 @@
     title_ru: Ясухиро Ёсиура
     title_en: Yasuhiro Yoshiura
     image: "/assets/achievements/anime/author/yasuhiro_yoshiura.jpg"
+    border_color: "#285F8D"
     topic_id: 276032
   generator: &90
     person_id: 6072
@@ -1845,7 +1848,7 @@
 - neko_id: hiroyuki_seshita
   level: 1
   algo: count
-  threshold: 36%
+  threshold: 29%
   filters: &106
     anime_ids:
     - 24893
@@ -1866,6 +1869,7 @@
     title_ru: Хироюки Сэсита
     title_en: Hiroyuki Seshita
     image: "/assets/achievements/anime/author/hiroyuki_seshita.jpg"
+    border_color: "#ABCDEF"
     topic_id: 276032
   generator: &108
     person_id: 35471
@@ -1926,6 +1930,7 @@
     title_ru: Такэси Коикэ
     title_en: Takeshi Koike
     image: "/assets/achievements/anime/author/takeshi_koike.jpg"
+    border_color: "#ff0000"
     topic_id: 276032
   generator: &114
     person_id: 10231
@@ -2373,6 +2378,7 @@
     title_ru: Хироясу Исида
     title_en: Hiroyasu Ishida
     image: "/assets/achievements/anime/author/hiroyasu_ishida.jpg"
+    border_color: "#3CB371"
     topic_id: 276032
   generator: &141
     person_id: 9852
@@ -2575,7 +2581,7 @@
 - neko_id: sangho_yeon
   level: 1
   algo: count
-  threshold: 43%
+  threshold: 29%
   filters: &151
     anime_ids:
     - 12035

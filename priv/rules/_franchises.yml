@@ -924,6 +924,8 @@
   algo: duration
   filters: &92
     franchise: kamisama_hajimemashita
+    not_anime_ids:
+    - 64425
   threshold: 100%
   metadata: &93
     title_ru: Приятно познакомиться, Бог

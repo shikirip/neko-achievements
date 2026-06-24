@@ -6934,3 +6934,36 @@
   filters: *696
   threshold: 0.01
   metadata: *697
+- neko_id: classroom_of_the_elite
+  level: 1
+  algo: duration
+  filters: &696
+    franchise: classroom_of_the_elite
+    not_anime_ids:
+    - 30813
+  threshold: 100%
+  metadata: &697
+    title_ru: Добро пожаловать в класс превосходства
+    title_en: Classroom of the Elite
+    image: "https://shikimori.rip/uploads/useruploads/1376315/4ab91d67b7de79b43ea7ada1883c1c73.png"
+    topic_id: 247360
+- neko_id: rent_a_girlfriend
+  level: 1
+  algo: duration
+  filters: &696
+    franchise: rent_a_girlfriend
+    not_anime_ids:
+    - 42867
+    - 51135
+    - 52289
+    - 52562
+    - 54075
+    - 55032
+    - 56740
+    - 58369
+  threshold: 100%
+  metadata: &697
+    title_ru: Девушка на час
+    title_en: Rent-a-Girlfriend
+    image: "https://shikimori.rip/uploads/useruploads/1376315/05860cb829a73bed3141840d0ff405bf.png"
+    topic_id: 247360

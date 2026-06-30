@@ -6979,3 +6979,111 @@
   filters: *700
   threshold: 0.01
   metadata: *701
+- neko_id: seishun_buta_yarou_wa_yumemiru_shoujo_no_yume_wo_minai
+  level: 1
+  algo: duration
+  filters:
+    franchise: seishun_buta_yarou_wa_yumemiru_shoujo_no_yume_wo_minai
+  threshold: 100%
+  metadata:
+    title_ru: Этот глупый свин не понимает мечту девочки-зайки
+    title_en: Seishun Buta Yarou wa Dear Friend no Yume wo Minai
+    image: "https://shikimori.rip/uploads/useruploads/1376315/348718161dbc7f7e652ea5f9d53e6e95.png"
+    topic_id: 247360
+- neko_id: yami_shibai
+  level: 1
+  algo: duration
+  filters:
+    franchise: yami_shibai
+  threshold: 100%
+  metadata:
+    title_ru: Ями Шибаи
+    title_en: Yami Shibai
+    image: "https://shikimori.rip/uploads/useruploads/1376315/a43d5fa538f7e454c6fdce33d06ceecc.jpg"
+    topic_id: 247360
+- neko_id: arifureta
+  level: 1
+  algo: duration
+  filters:
+    franchise: arifureta
+    not_anime_ids:
+    - 40239
+    - 49700
+    - 51340
+    - 61029
+  threshold: 100%
+  metadata:
+    title_ru: Арифурэта
+    title_en: Arifureta
+    image: "https://shikimori.rip/uploads/useruploads/1376315/3ddcdb13ad6e138e8a6fb081b1280737.jpg"
+    topic_id: 247360
+- neko_id: link_click
+  level: 1
+  algo: duration
+  filters:
+    franchise: link_click
+    not_anime_ids:
+    - 49652
+    - 50202
+    - 51665
+    - 51824
+    - 51825
+  threshold: 100%
+  metadata:
+    title_ru: Агент времени
+    title_en: Link Click
+    image: "https://shikimori.rip/uploads/useruploads/1376315/ee6149e05d02bb0a25a3f9385437d84b.jpg"
+    topic_id: 247360
+- neko_id: ensemble_stars
+  level: 1
+  algo: duration
+  filters:
+    franchise: ensemble_stars
+    not_anime_ids:
+    - 40462
+    - 49060
+    - 49122
+  threshold: 100%
+  metadata:
+    title_ru: Звёзды ансамбля!
+    title_en: Ensemble Stars!
+    image: "https://shikimori.rip/uploads/useruploads/1376315/13c62f310daaba83d471631f1cbbabe8.jpg"
+    topic_id: 247360
+  generator:
+    not_ignored_ids:
+    - 40690
+    - 40691
+    - 42673
+    - 48519
+    - 48524
+    - 48525
+    - 48529
+    - 48530
+    - 48531
+    - 48538
+    - 48540
+    - 48541
+    - 48552
+    - 48557
+    - 48558
+    - 48560
+    - 48562
+    - 48565
+    - 48566
+    - 49126
+    - 49147
+    - 49148
+    - 61011
+- neko_id: arad
+  level: 1
+  algo: duration
+  filters:
+    franchise: arad
+    not_anime_ids:
+    - 59413
+  threshold: 100%
+  metadata:
+    title_ru: Арад
+    title_en: Arad
+    image: "https://shikimori.rip/uploads/useruploads/1376315/f740560d1dc3073d52ad497bd3dbeb3c.jpg"
+    topic_id: 247360

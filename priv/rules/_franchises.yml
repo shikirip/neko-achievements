@@ -7087,3 +7087,14 @@
     title_en: Arad
     image: "https://shikimori.rip/uploads/useruploads/1376315/f740560d1dc3073d52ad497bd3dbeb3c.jpg"
     topic_id: 247360
+- neko_id: ling_jian_zun
+  level: 1
+  algo: duration
+  filters:
+    franchise: ling_jian_zun
+  threshold: 100%
+  metadata:
+    title_ru: Владыка духовного меча
+    title_en: Ling Jian Zun
+    image: "https://shikimori.rip/uploads/useruploads/1376315/6de4f7285efa50ef5349178e87175af6.jpg"
+    topic_id: 247360

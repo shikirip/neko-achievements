@@ -7098,3 +7098,14 @@
     title_en: Ling Jian Zun
     image: "https://shikimori.rip/uploads/useruploads/1376315/6de4f7285efa50ef5349178e87175af6.jpg"
     topic_id: 247360
+- neko_id: yong_sheng
+  level: 1
+  algo: duration
+  filters:
+    franchise: yong_sheng
+  threshold: 100%
+  metadata:
+    title_ru: Бессмертие
+    title_en: Yong Sheng
+    image: "https://shikimori.rip/uploads/useruploads/1376315/94bd9a061bc84a7e161503b0efa3f2c5.jpg"
+    topic_id: 247360

@@ -7109,3 +7109,23 @@
     title_en: Yong Sheng
     image: "https://shikimori.rip/uploads/useruploads/1376315/94bd9a061bc84a7e161503b0efa3f2c5.jpg"
     topic_id: 247360
+- neko_id: monster_strike
+  level: 1
+  algo: duration
+  filters:
+    franchise: monster_strike
+    not_anime_ids:
+    - 36624
+    - 38021
+    - 39464
+    - 39465
+    - 40415
+    - 42955
+    - 57883
+    - 62820
+  threshold: 100%
+  metadata:
+    title_ru: Удар монстра
+    title_en: Monster Strike
+    image: "https://shikimori.rip/uploads/useruploads/1376315/6a7de362992c29dfb7ca8bc7ac703f7b.jpg"
+    topic_id: 247360
